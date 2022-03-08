@@ -1,5 +1,60 @@
-#bd_div1 {
-  background-color: orangered;  
-  color:burlywood;
-  font-size: 18pt;
+#layout_calc{
+  max-width:45%;
+  min-height:700px;
+  background-color: rgb(44, 42, 42);
+  padding: 10px;
 }
+
+#display{
+  display: block;
+  width:85%;
+  min-height:100px;
+  max-height:100px;
+  background-color: rgb(96, 120, 131);
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#keyboard{
+  display: block;
+  width: 85%;
+  min-height:100px;
+  max-height:500px;
+  background-color: rgb(116, 113, 113);
+  margin: auto;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+#buttons{
+  display: inline-block ;
+  min-width: 31%;
+  min-height: 60px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 700;
+  }
+
+  #operators{
+    display: block;
+    width: 85%;
+    min-height:100px;
+    max-height:500px;
+    background-color: rgb(73, 65, 65);
+    margin: auto;
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  #notes{
+    display: block;
+    width: 85%;
+    min-height:100px;
+    max-height:500px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+  }
+
+  #operators #notes{
+
+  }
